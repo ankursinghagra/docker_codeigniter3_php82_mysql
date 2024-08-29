@@ -11,7 +11,7 @@ services:
       - "443:443"
     volumes:
       - type: bind
-        source: ./php_port/
+        source: ./public_html/
         target: /var/www/html/
     networks:
       - backend
